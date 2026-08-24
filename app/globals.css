@@ -1,10 +1,8 @@
 @import "tailwindcss";
 
-/* Tailwind v4 : config CSS-first, plus de tailwind.config.ts. Les clés
-   --color-*/--radius-*/--font-* dans @theme génèrent automatiquement les
-   utilitaires correspondants (bg-accent, rounded-glass, font-sans...),
-   avec support natif des modificateurs d'opacité (bg-accent/50) même sur
-   une valeur qui référence elle-même une variable mutable au runtime. */
+/* Tailwind v4 : configuration CSS-first. Les tokens de couleur, rayon et
+   typographie dans @theme génèrent automatiquement les utilitaires
+   correspondants, avec support des modificateurs d'opacité au runtime. */
 @theme {
   --color-accent: rgb(var(--accent-rgb));
   --radius-glass: 28px;
